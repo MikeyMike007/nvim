@@ -207,6 +207,14 @@ local mappings = {
     name = "Notes",
     m = { "<cmd>vsplit ~/notes/vim-notes/README.md<cr>", "Vim Notes" },
   },
+
+  D = {
+    name = "Todos",
+    q = { "<cmd>TodoQuickFix<cr>", "TodoQuickFix" },
+    l = { "<cmd>TodoLocList<cr>", "TodoLocList" },
+    t = { "<cmd>TodoTrouble<cr>", "TodoTrouble" },
+    s = { "<cmd>TodoTelescope<cr>", "TodoTelescope" },
+  },
 }
 
 which_key.setup(setup)

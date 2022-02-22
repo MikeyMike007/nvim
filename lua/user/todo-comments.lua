@@ -3,11 +3,11 @@ if not status_ok then
   return
 end
 
--- TODO: Hello
--- HACK: jejeje
--- WARN: jkdjd
--- PERF: Helllo
--- NOTE: kdkdkd
+-- TODO: Test
+-- HACK: Test
+-- WARN: Test
+-- PERF: Test
+-- NOTE: Test
 todo_comments.setup {
   signs = true, -- show icons in the signs column
   sign_priority = 8, -- sign priority
