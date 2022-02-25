@@ -60,6 +60,7 @@ return packer.startup(function(use)
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim"
   -- New
+  use "ferrine/md-img-paste.vim"
   use "phaazon/hop.nvim" -- OK
   use "nacro90/numb.nvim" -- Peeks lines
   use "norcalli/nvim-colorizer.lua"
@@ -133,7 +134,7 @@ return packer.startup(function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
-  use "p00f/nvim-ts-rainbow"
+  use { "p00f/nvim-ts-rainbow", commit = "7e1af3e61b8f529031b54369fd54936c2a288e1b" }
   use "windwp/nvim-ts-autotag"
 
   -- Git

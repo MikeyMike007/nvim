@@ -202,6 +202,7 @@ local mappings = {
   M = {
     name = "Markdown",
     t = { "<cmd>TableModeToggle<cr>", "Table Mode (Markdown)" },
+    p = { ":call mdip#MarkdownClipboardImage()<cr>", "Paste image" },
   },
   N = {
     name = "Notes",

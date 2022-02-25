@@ -20,7 +20,8 @@ null_ls.setup {
     formatting.markdownlint,
     -- Linters
     diagnostics.flake8,
-    diagnostics.eslint,
+    diagnostics.eslint_d,
     diagnostics.markdownlint,
+    diagnostics.stylelint,
   },
 }
