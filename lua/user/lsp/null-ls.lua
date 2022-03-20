@@ -16,7 +16,7 @@ null_ls.setup {
     formatting.black,
     -- formatting.yapf,
     formatting.stylua,
-    formatting.clang_format,
+    -- formatting.clang_format,
     formatting.markdownlint,
     -- Linters
     diagnostics.flake8,

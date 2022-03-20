@@ -6,10 +6,10 @@ end
 lualine.setup {
   options = {
     icons_enabled = true,
-    theme = "auto",
+    theme = "horizon",
     component_separators = { left = "", right = "" },
     section_separators = { left = "", right = "" },
-    disabled_filetypes = {},
+    disabled_filetypes = {"alpha", "dashboard", "NvimTree", "toogleterm", "quickfix"},
     always_divide_middle = true,
   },
   sections = {
